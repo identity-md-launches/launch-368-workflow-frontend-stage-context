@@ -1,0 +1,23 @@
+
+> lockvote-web@1.0.0 test
+> node scripts/interactions.mjs
+
+PASS static subpath, disconnected actions and six contract states
+PASS missing wallet reports recovery
+PASS wrong network gates transactions; unknown chain adds exact vetted parameters
+PASS approval is exact and separate from lock; confirmed state refresh
+PASS unlock returns exact amount; invalid and overprecision amounts never sign
+PASS proposal validates recipient and encodes ETH and description hash
+PASS vote confirmation, frozen unlock and duplicate-vote prevention
+PASS execution sends the proposal ID and refreshes treasury ETH
+PASS rejected wallet request remains recoverable
+PASS simulation failure blocks wallet signature
+PASS donation passes exact native value; cancelled review sends nothing
+PASS mined revert does not report success
+PASS pagination reads all proposal IDs from views
+PASS missing code, linked-token mismatch and RPC failure disable writes
+PASS account changes invalidate wallet snapshot and close reviews
+PASS keyboard navigation and modal focus confinement
+PASS responsive export and automated accessibility at desktop, tablet and 320px
+PASS empty state and enlarged text reflow
+PASS runtime ABI tampering fails closed

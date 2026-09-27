@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-09-27T06:47:48.402Z",
+  "readOnly": true,
+  "checks": [
+    {
+      "rpc": "https://ethereum-sepolia-rpc.publicnode.com",
+      "chainId": 11155111,
+      "blockNumber": 11791634,
+      "codes": [
+        {
+          "name": "LaunchToken",
+          "address": "0x58e0474edf328b5d8e0fdb1a7c22aedfc49c5145",
+          "runtimeBytes": 1722
+        },
+        {
+          "name": "LockVoteTreasury",
+          "address": "0x9c2fa03437785e9983e81b8608f398d7123ff821",
+          "runtimeBytes": 4293
+        }
+      ],
+      "token": "0x58E0474eDf328b5d8e0fDB1a7c22AedfC49c5145",
+      "pass": true
+    },
+    {
+      "rpc": "https://rpc.sepolia.ethpandaops.io",
+      "chainId": 11155111,
+      "blockNumber": 11791634,
+      "codes": [
+        {
+          "name": "LaunchToken",
+          "address": "0x58e0474edf328b5d8e0fdb1a7c22aedfc49c5145",
+          "runtimeBytes": 1722
+        },
+        {
+          "name": "LockVoteTreasury",
+          "address": "0x9c2fa03437785e9983e81b8608f398d7123ff821",
+          "runtimeBytes": 4293
+        }
+      ],
+      "token": "0x58E0474eDf328b5d8e0fDB1a7c22AedfC49c5145",
+      "pass": true
+    },
+    {
+      "rpc": "https://sepolia.rpc.sentio.xyz",
+      "chainId": 11155111,
+      "blockNumber": 11791633,
+      "codes": [
+        {
+          "name": "LaunchToken",
+          "address": "0x58e0474edf328b5d8e0fdb1a7c22aedfc49c5145",
+          "runtimeBytes": 1722
+        },
+        {
+          "name": "LockVoteTreasury",
+          "address": "0x9c2fa03437785e9983e81b8608f398d7123ff821",
+          "runtimeBytes": 4293
+        }
+      ],
+      "token": "0x58E0474eDf328b5d8e0fDB1a7c22AedfC49c5145",
+      "pass": true
+    }
+  ]
+}

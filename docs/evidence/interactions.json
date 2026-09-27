@@ -1,0 +1,109 @@
+{
+  "checkedAt": "2026-09-27T07:02:42.909Z",
+  "browser": "141.0.7390.37",
+  "exportPath": "/preview/",
+  "realTransactions": 0,
+  "mockedTransactionFunctions": [
+    "approve",
+    "lock",
+    "unlock",
+    "propose",
+    "vote",
+    "execute",
+    "donate",
+    "donate",
+    "vote"
+  ],
+  "tests": [
+    {
+      "name": "static subpath, disconnected actions and six contract states",
+      "pass": true
+    },
+    {
+      "name": "missing wallet reports recovery",
+      "pass": true
+    },
+    {
+      "name": "wrong network gates transactions; unknown chain adds exact vetted parameters",
+      "pass": true
+    },
+    {
+      "name": "approval is exact and separate from lock; confirmed state refresh",
+      "pass": true
+    },
+    {
+      "name": "unlock returns exact amount; invalid and overprecision amounts never sign",
+      "pass": true
+    },
+    {
+      "name": "proposal validates recipient and encodes ETH and description hash",
+      "pass": true
+    },
+    {
+      "name": "vote confirmation, frozen unlock and duplicate-vote prevention",
+      "pass": true
+    },
+    {
+      "name": "execution sends the proposal ID and refreshes treasury ETH",
+      "pass": true
+    },
+    {
+      "name": "rejected wallet request remains recoverable",
+      "pass": true
+    },
+    {
+      "name": "simulation failure blocks wallet signature",
+      "pass": true
+    },
+    {
+      "name": "donation passes exact native value; cancelled review sends nothing",
+      "pass": true
+    },
+    {
+      "name": "mined revert does not report success",
+      "pass": true
+    },
+    {
+      "name": "pagination reads all proposal IDs from views",
+      "pass": true
+    },
+    {
+      "name": "missing code, linked-token mismatch and RPC failure disable writes",
+      "pass": true
+    },
+    {
+      "name": "account changes invalidate wallet snapshot and close reviews",
+      "pass": true
+    },
+    {
+      "name": "keyboard navigation and modal focus confinement",
+      "pass": true
+    },
+    {
+      "name": "responsive export and automated accessibility at desktop, tablet and 320px",
+      "pass": true
+    },
+    {
+      "name": "empty state and enlarged text reflow",
+      "pass": true
+    },
+    {
+      "name": "runtime ABI tampering fails closed",
+      "pass": true
+    },
+    {
+      "name": "no browser console errors or failed local assets",
+      "pass": true
+    }
+  ],
+  "consoleErrors": [],
+  "screenshots": [
+    "connected-1440.png",
+    "connected-768.png",
+    "connected-320.png",
+    "review-desktop.png",
+    "empty-desktop.png",
+    "controls-320.png",
+    "proposal-320.png"
+  ]
+}

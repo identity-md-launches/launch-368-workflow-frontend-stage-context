@@ -1,0 +1,12 @@
+
+> lockvote-web@1.0.0 validate
+> node scripts/validate.mjs
+
+{
+  "result": "pass",
+  "contracts": 2,
+  "assets": 6,
+  "totalExportBytes": 548069,
+  "abiHashes": "canonical Keccak verified",
+  "sha256": "all exported assets verified"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "selector": ".lead",
+    "foreground": "rgb(100, 106, 97)",
+    "background": "rgb(250, 249, 246)",
+    "ratio": 5.282136871784223
+  },
+  {
+    "selector": ".test-notice p",
+    "foreground": "rgb(100, 106, 97)",
+    "background": "rgb(250, 249, 246)",
+    "ratio": 5.282136871784223
+  },
+  {
+    "selector": ".treasury-stat .eyebrow",
+    "foreground": "rgb(217, 237, 155)",
+    "background": "rgb(24, 60, 50)",
+    "ratio": 9.552306525547692
+  },
+  {
+    "selector": ".treasury-stat a",
+    "foreground": "rgb(255, 255, 255)",
+    "background": "rgb(24, 60, 50)",
+    "ratio": 12.13003847007064
+  },
+  {
+    "selector": ".new-proposal summary .small",
+    "foreground": "rgb(100, 106, 97)",
+    "background": "rgb(255, 254, 250)",
+    "ratio": 5.510763262243064
+  },
+  {
+    "selector": ".state-0",
+    "foreground": "rgb(39, 83, 65)",
+    "background": "rgb(233, 239, 227)",
+    "ratio": 7.467201143425874
+  },
+  {
+    "selector": ".state-1",
+    "foreground": "rgb(138, 48, 38)",
+    "background": "rgb(250, 234, 229)",
+    "ratio": 7.096936807511392
+  }
+]
